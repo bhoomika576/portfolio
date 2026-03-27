@@ -5,6 +5,10 @@
     font-family: Arial, sans-serif;
 }
 
+
+
+
+
 body {
     background: linear-gradient(-45deg, #00031e, #020031, #000000, #121212);
     background-size: 400% 400%;
@@ -17,6 +21,11 @@ body {
     50% { background-position: 50% 50%; }
     100% { background-position: 0% 50%; }
 }
+
+
+
+
+
 
 header {
     display: flex;
@@ -58,6 +67,10 @@ footer {
     padding: 10px;
 }
 
+
+
+
+
 @media (max-width: 768px) {
     nav {
         display: none;
@@ -78,12 +91,20 @@ footer {
     }
 }
 
+
+
+
+
 .home-container {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 40px;
 }
+
+
+
+
 
 .home-image img {
     width: 180px;
@@ -95,6 +116,10 @@ footer {
     background-size: 300% 300%;
     animation: glow 5s infinite linear;
 }
+
+
+
+
 
 @keyframes glow {
     0% { background-position: 0% }

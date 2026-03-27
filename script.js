@@ -1,4 +1,3 @@
-
 const text = "Bhoomika 👋";
 let index = 0;
 
@@ -9,5 +8,4 @@ function typeEffect() {
         setTimeout(typeEffect, 100);
     }
 }
-
 window.onload = typeEffect;
