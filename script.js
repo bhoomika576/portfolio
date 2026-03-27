@@ -1,4 +1,4 @@
-const text = "Bhoomika 👋";
+const text = "Bhoomika ";
 let index = 0;
 
 function typeEffect() {
