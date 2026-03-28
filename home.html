@@ -3,45 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Bhoomika | IT Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <header>
-        <h2 class="logo">MyPortfolio</h2>
-        <nav id="nav">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
-        </nav>
-        <button id="menu-btn">☰</button>
-    </header>
+<header>
+    <h2 class="logo">MyPortfolio</h2>
+    <nav id="nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <button id="menu-btn">☰</button>
+</header>
 
-    <section id="home" class="section home-container">
+<section id="home" class="section home-container">
     <div class="home-text">
         <h1>Hello, I'm <span id="typing"></span></h1>
-        <p>A Web Development Student</p>
+        <p>IT Student | Web Developer | Tech Enthusiast</p>
+        <div>
+            <a href="#projects" class="btn btn-primary">View Work</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
     </div>
     <div class="home-image">
-        <img src="me.jpg" alt="My Photo">
+        <img src="me.jpg" alt="Bhoomika" onerror="this.src='https://via.placeholder.com/200x200/333/fff?text=B'">
     </div>
 </section>
 
-    <section id="about" class="section">
+<section id="about" class="section">
+    <div class="about-box">
         <h2>About Me</h2>
-        <p>I am learning web technologies and enjoy building simple and responsive websites.</p>
-    </section>
+        <p>I'm an IT student passionate about building web applications and solving real-world problems through code. I focus on creating clean, responsive, and user-friendly digital experiences.</p>
+        <p>Currently exploring full-stack development with React, Node.js, and cloud technologies. Always eager to learn new tools and contribute to open-source.</p>
+        <div class="skills">
+            <span class="skill">HTML/CSS</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">React</span>
+            <span class="skill">Node.js</span>
+            <span class="skill">Python</span>
+            <span class="skill">Git</span>
+            <span class="skill">REST APIs</span>
+        </div>
+    </div>
+</section>
 
-    <section id="projects" class="section">
-        <h2>My Projects</h2>
-        <a href="https://github.com/bhoomika576" target="_blank">GitHub Profile</a>
-    </section>
+<section id="projects" class="section">
+    <h2>My Projects ❤️</h2>
+    <a href="https://github.com/bhoomika576" target="_blank" class="github-link">
+        <i class="fab fa-github"></i> Visit My GitHub
+    </a>
+    <div class="projects-container">
+        <div class="project-card">
+            <h3>✨ Wellness Platform</h3>
+            <p>Health & fitness tracker with workout routines, mood logging, and progress visualization.</p>
+            <div>
+                <a href="https://mndsync.netlify.app/" target="_blank">Live Demo →</a>
+                <a href="https://github.com/bhoomika576/wellness-platform" target="_blank">GitHub</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <h3>🏡 RentSmart</h3>
+            <p>Property management app for tenants and landlords with listing and application features.</p>
+            <div>
+                <a href="https://rentsmart.infinityfreeapp.com" target="_blank">Live Demo →</a>
+                <a href="https://github.com/bhoomika576/rentsmart" target="_blank">GitHub</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <h3>🌳 Forest Guardian</h3>
+            <p>2D platformer game built with Godot engine focused on environmental awareness.</p>
+            <div>
+                <a href="#">Play Demo →</a>
+                <a href="https://github.com/bhoomika576/forest-guardian" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </div>
+</section>
 
-    <footer>
-        <p>© 2026 Mika</p>
-    </footer>
+<section id="contact" class="section">
+    <div class="contact-box">
+        <h2>Get In Touch</h2>
+        <div class="contact-items">
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:bhoomika@example.com">bhoomika@example.com</a>
+            </div>
+            <div class="contact-item">
+                <i class="fab fa-github"></i>
+                <a href="https://github.com/bhoomika576" target="_blank">github.com/bhoomika576</a>
+            </div>
+            <div class="contact-item">
+                <i class="fab fa-linkedin"></i>
+                <a href="https://www.linkedin.com/in/bhoomika-mudhoo-903373394/">linkedin.com/in/bhoomika</a>
+            </div>
+        </div>
+        <div class="social-icons">
+            <a href="https://github.com/bhoomika576" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-dev"></i></a>
+        </div>
+    </div>
+</section>
 
-    <script src="script.js"></script>
+<footer>
+    <p>© 2026 Bhoomika | IT Student & Web Developer</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>    
+ <script src="script.js"></script>
+
 </body>
 </html>
