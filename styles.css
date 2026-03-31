@@ -46,7 +46,7 @@
         }
 
         nav a:hover {
-            color: #b353b3;
+            color: #bd6dbd;
         }
 
         #menu-btn {
@@ -89,7 +89,7 @@
         }
 
         .home-text p {
-            font-size: 1.2rem;
+            font-size: 4.2rem;
             margin: 10px 0 20px;
         }
 
@@ -115,10 +115,7 @@
         #typing {
             color: #b353b3;
         }
-        #typing::after {
-            content: "|";
-            animation: blink 1s infinite;
-        }
+       
         @keyframes blink {
             0%, 100% { opacity: 1; }
             50% { opacity: 0; }
@@ -149,7 +146,7 @@
 
 
         .about-box {
-            background: rgba(0,0,0,0.4);
+            background: rgb(36, 3, 45);
             border-radius: 30px;
             padding: 40px;
             max-width: 800px;
@@ -167,7 +164,7 @@
             margin-top: 25px;
         }
         .skill {
-            background: rgba(179,83,179,0.3);
+            background: rgba(179, 83, 179, 0.433);
             padding: 6px 18px;
             border-radius: 25px;
             font-size: 0.85rem;
@@ -212,7 +209,7 @@
             border-color: #b353b3;
             box-shadow: 0 0 20px rgba(235, 79, 235, 0.6);
         }
-        .github-link {
+        .github-link a {
             display: inline-flex;
             align-items: center;
             gap: 8px;
@@ -223,12 +220,13 @@
             color: white;
             margin-top: 20px;
         }
+        
 
         
 
 
         .contact-box {
-            background: rgba(0,0,0,0.4);
+            background: rgba(0, 0, 0, 0.4);
             border-radius: 30px;
             padding: 40px;
             max-width: 700px;
@@ -277,6 +275,27 @@
             color: #b353b3;
             transform: translateY(-3px);
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         @media (max-width: 768px) {

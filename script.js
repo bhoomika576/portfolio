@@ -11,9 +11,9 @@
 
 
 const typed = new Typed('#typing', {
-    strings: ['Bhoomika', 'a Developer', 'a Problem Solver'],
+    strings: ['Bhoomika...'],
     typeSpeed: 100,
-    backSpeed: 50,
+    backSpeed: 100,
     loop: true
 });
 
@@ -23,6 +23,59 @@ const nav = document.getElementById('nav');
 menuBtn.addEventListener('click', () => {
     nav.classList.toggle('active');
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
